@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 1ec82ba374543634b8c1f2e93edf148d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - berlinsans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4748ccfe94aeccf479bffea73b8b1fc4, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
