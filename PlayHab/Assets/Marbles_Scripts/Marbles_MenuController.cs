@@ -7,7 +7,6 @@ public class Marbles_MenuController : MonoBehaviour
 {
     public static Marbles_MenuController instance1;
     public GameObject levelPanel;
-    public GameObject menu;
     public  int levelnum;
     public bool hard;
 
@@ -23,14 +22,12 @@ public class Marbles_MenuController : MonoBehaviour
     }
     public void StartGame()
     {
-        menu.SetActive(false);
         levelPanel.SetActive(true); 
         
     }
     public void BacktoMenu()
     {
-      levelPanel.SetActive(false);  
-      menu.SetActive(true);
+        SceneManager.LoadScene("MainScreen");
     }
     public void Lvl1()
     {

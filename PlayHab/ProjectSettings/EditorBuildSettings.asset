@@ -6,6 +6,69 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scene/MainScreen.unity
+    guid: 4dcfdff69ac55ae44a7f7023b99da892
+  - enabled: 1
+    path: Assets/Scene/Marbles_Check.unity
+    guid: 290d1c298b8985d458cf006bcdc1dede
+  - enabled: 1
+    path: Assets/Scene/Marbles_Menu.unity
+    guid: 719cca28e0f10e04694440a94763d950
+  - enabled: 1
+    path: Assets/Scene/Marbles_Show.unity
+    guid: 62529b28d3cbe064cbb1053fcb637b97
+  - enabled: 1
+    path: Assets/Tumbler_Scenes/Level_Tumbler_1.unity
+    guid: 5198d1c7024b3fb498e8fa12cc774055
+  - enabled: 1
+    path: Assets/Tumbler_Scenes/Level_Tumbler_2.unity
+    guid: 41ccd95df443d5448bea9cfd95a08dff
+  - enabled: 1
+    path: Assets/Tumbler_Scenes/Level_Tumbler_3.unity
+    guid: d596e229d184ef04091a5c4197b49043
+  - enabled: 1
+    path: Assets/Tumbler_Scenes/Level_Tumbler_4.unity
+    guid: df96f78c14d03a745add22e696aab6c7
+  - enabled: 1
+    path: Assets/Tumbler_Scenes/Level_Tumbler_5.unity
+    guid: 2da954ac780d5174aa4946d250abd1a8
+  - enabled: 1
+    path: Assets/Tumbler_Scenes/Level_Tumbler_6.unity
+    guid: e562d0d1eaa911945b2b21c8ee173f10
+  - enabled: 1
+    path: Assets/Tumbler_Scenes/Tumbler_LevelChoosing.unity
+    guid: 9a5b5357086c7c94d9832fc16c9ac28d
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevel_1.unity
+    guid: 2515b56fe8c064a4b8d577d74838245a
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevel_2.unity
+    guid: def7915e27fe5a7408f57ef7ec699ad5
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevel_3.unity
+    guid: f73d6bcfc0d35b34682a336a403b68e3
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevel_4.unity
+    guid: 525c49f9261dca64c93f4ed55aec5a3d
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevel_5.unity
+    guid: 56b031eff4280d348a8cf572c965c478
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevel_6.unity
+    guid: e84ab2a6778c9304688f8a6e63e352db
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevel_7.unity
+    guid: b3b21a1096faaf342a6f9056d4d78268
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevel_8.unity
+    guid: 98fca02adb543664d9a47b74ad20829f
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevel_9.unity
+    guid: 5c6198147eaf09f4589b78878ec03928
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevel_10.unity
+    guid: bcf2a9ec5a8d743408dd394b6bf4c6b9
+  - enabled: 1
+    path: Assets/Alien_scenes/AlienLevelsPage.unity
+    guid: 7f2592ecea621be4e89569bb5bb1fbd2
   m_configObjects: {}
