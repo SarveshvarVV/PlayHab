@@ -11,8 +11,11 @@ using System.Linq;
 public class SaveData : MonoBehaviour
 {
     public static SaveData instance;
+    public string pName;
+    public string game;
+    public int diff;
+    public float tOs;
     public PlayerData data = new PlayerData();
-    IndividualData iData = new IndividualData();
 
 
     private void Awake()
@@ -24,8 +27,20 @@ public class SaveData : MonoBehaviour
         }
         else if (instance != null)
         {
-            Destroy(this);
+            Destroy(this.gameObject);
         }
+    }
+
+    private void Start()
+    {
+        LoadFromJson();
+    }
+
+    public void LoadFromJson()
+    {
+        string filepath = Application.persistentDataPath + "/SaveData.json";
+        string savingData = File.ReadAllText(filepath);
+        data = JsonUtility.FromJson<PlayerData>(savingData);
     }
     public void SaveToJson()
     {
@@ -38,21 +53,36 @@ public class SaveData : MonoBehaviour
 
     public void OnAddName(GameObject nameEntry)
     {
-        iData.playerName = nameEntry.GetComponent<TextMeshProUGUI>().text.ToString();
+        pName = nameEntry.GetComponent<TextMeshProUGUI>().text.ToString();
         //data.playerData.Add(iData);
     }
 
     public void OnAddGame(GameObject gameEntry)
     {
-        iData.gameName = gameEntry.name.ToString();
+        game = gameEntry.name.ToString();
         //data.playerData.Add(iData);
+    }
+
+    public void OnAddDiff(int diffNo)
+    {
+        diff = diffNo;
+    }
+
+    public void OnAddTOS(float tos)
+    {
+        tOs = tos;
     }
 
     private void Update()
     {
         if(Input.GetKeyUp(KeyCode.S)) 
         {
-            data.playerData.Append(iData);
+            IndividualData iData = new IndividualData();
+            iData.playerName = pName;
+            iData.gameName = game;
+            iData.difficulty = diff;
+            iData.timeOrScore = tOs;
+            data.playerData.Add(iData);
             SaveToJson();
         }
     }
@@ -61,6 +91,7 @@ public class SaveData : MonoBehaviour
     {
         public List<IndividualData> playerData = new List<IndividualData>();
     }
+
     [System.Serializable]
     public class IndividualData
     {

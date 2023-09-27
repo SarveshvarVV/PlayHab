@@ -1641,6 +1641,7 @@ GameObject:
   - component: {fileID: 1534290336}
   - component: {fileID: 1534290335}
   - component: {fileID: 1534290334}
+  - component: {fileID: 1534290337}
   m_Layer: 5
   m_Name: Whack-an-Alien
   m_TagString: Untagged
@@ -1725,18 +1726,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1565002283}
-        m_TargetAssemblyTypeName: SaveData, Assembly-CSharp
-        m_MethodName: OnAddGame
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1534290332}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1534290335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1775,6 +1764,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534290332}
   m_CullTransparentMesh: 1
+--- !u!114 &1534290337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534290332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda4f2fab167f3d42a9d88353ca864a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1544493656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1899,6 +1900,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d13b9684d57530345b13b5f4beb76f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pName: 
+  game: 
+  diff: 0
+  tOs: 0
   data:
     playerData: []
 --- !u!1 &1753119015
@@ -2058,6 +2063,7 @@ GameObject:
   - component: {fileID: 1851128790}
   - component: {fileID: 1851128789}
   - component: {fileID: 1851128788}
+  - component: {fileID: 1851128791}
   m_Layer: 5
   m_Name: Marble-Order
   m_TagString: Untagged
@@ -2142,18 +2148,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1565002283}
-        m_TargetAssemblyTypeName: SaveData, Assembly-CSharp
-        m_MethodName: OnAddGame
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1851128786}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1851128789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2192,6 +2186,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851128786}
   m_CullTransparentMesh: 1
+--- !u!114 &1851128791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851128786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda4f2fab167f3d42a9d88353ca864a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1985270760
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,6 +2210,7 @@ GameObject:
   - component: {fileID: 1985270764}
   - component: {fileID: 1985270763}
   - component: {fileID: 1985270762}
+  - component: {fileID: 1985270765}
   m_Layer: 5
   m_Name: Cup-On-Top
   m_TagString: Untagged
@@ -2288,18 +2295,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1565002283}
-        m_TargetAssemblyTypeName: SaveData, Assembly-CSharp
-        m_MethodName: OnAddGame
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1985270760}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1985270763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2338,6 +2333,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985270760}
   m_CullTransparentMesh: 1
+--- !u!114 &1985270765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985270760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda4f2fab167f3d42a9d88353ca864a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2065670858
 GameObject:
   m_ObjectHideFlags: 0
