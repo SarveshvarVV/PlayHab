@@ -14,7 +14,8 @@ public class SaveData : MonoBehaviour
     public string pName;
     public string game;
     public int diff;
-    public float tOs;
+    public string dT;
+    public string tOs;
     public PlayerData data = new PlayerData();
 
 
@@ -63,29 +64,44 @@ public class SaveData : MonoBehaviour
         //data.playerData.Add(iData);
     }
 
-    public void OnAddDiff(int diffNo)
+    public void OnAddDiff(int diffNo, string dt)
     {
+        dT = dt;
         diff = diffNo;
     }
 
-    public void OnAddTOS(float tos)
+    public void OnAddTOS(string tos)
     {
         tOs = tos;
     }
 
-    private void Update()
+    public void SaveToFile()
     {
-        if(Input.GetKeyUp(KeyCode.S)) 
-        {
-            IndividualData iData = new IndividualData();
-            iData.playerName = pName;
-            iData.gameName = game;
-            iData.difficulty = diff;
-            iData.timeOrScore = tOs;
-            data.playerData.Add(iData);
-            SaveToJson();
-        }
+        IndividualData iData = new IndividualData();
+        iData.playerName = pName;
+        iData.gameName = game;
+        iData.difficulty = diff;
+        iData.dateTime = dT;
+        iData.timeOrScore = tOs;
+        data.playerData.Add(iData);
+        SaveToJson();
     }
+
+    //private void Update()
+    //{
+    //    if(Input.GetKeyUp(KeyCode.S)) 
+    //    {
+    //        IndividualData iData = new IndividualData();
+    //        iData.playerName = pName;
+    //        iData.gameName = game;
+    //        iData.difficulty = diff;
+    //        iData.dateTime = dT;
+    //        iData.timeOrScore = tOs;
+    //        data.playerData.Add(iData);
+    //        SaveToJson();
+    //    }
+    //}
+
     [System.Serializable]
     public class PlayerData
     {
@@ -97,8 +113,9 @@ public class SaveData : MonoBehaviour
     {
         public string playerName;
         public string gameName;
+        public string dateTime;
         public int difficulty;
-        public float timeOrScore;
+        public string timeOrScore;
     }
 }
 

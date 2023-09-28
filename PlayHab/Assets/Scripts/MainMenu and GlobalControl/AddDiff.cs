@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine.UI;
 
 public class AddDiff : MonoBehaviour
 {
+    string dateTime;
     GameObject gameobject;
     Button button;
     SaveData saveData;
@@ -15,12 +17,8 @@ public class AddDiff : MonoBehaviour
         gameobject = this.gameObject;
         button = GetComponent<Button>();
         saveData = FindObjectOfType<SaveData>().GetComponent<SaveData>();
-        button.onClick.AddListener(() => saveData.OnAddDiff(int.Parse(gameobject.name)));
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        DateTime timenow = DateTime.Now;
+        dateTime = timenow.ToString();
+        button.onClick.AddListener(() => saveData.OnAddDiff(int.Parse(gameobject.name), dateTime));
     }
 }
