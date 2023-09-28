@@ -71,4 +71,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Alien_scenes/AlienLevelsPage.unity
     guid: 7f2592ecea621be4e89569bb5bb1fbd2
+  - enabled: 1
+    path: Assets/Chimp_Scenes/Chimp_L1.unity
+    guid: 8a3686c67c3c842a39729beb478befef
+  - enabled: 1
+    path: Assets/Chimp_Scenes/Chimp_L2.unity
+    guid: ff1134035ae6e4e388b09ffda4caed23
+  - enabled: 1
+    path: Assets/Chimp_Scenes/Chimp_L3.unity
+    guid: 3771ef3e835774c07851482f71a1c640
+  - enabled: 1
+    path: Assets/Chimp_Scenes/Chimp_L4.unity
+    guid: 13112138bd1f54aa1a06a49cd442cae7
+  - enabled: 1
+    path: Assets/Chimp_Scenes/Chimp_L5.unity
+    guid: fd0ba84de21eb43e9b85737dd1490ac6
+  - enabled: 1
+    path: Assets/Chimp_Scenes/Chimp_L6.unity
+    guid: cc9f228c9d61a4790a125bab2c0d3b56
+  - enabled: 1
+    path: Assets/Chimp_Scenes/Chimp_MainMenu.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects: {}
