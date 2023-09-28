@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 14057562}
   - component: {fileID: 14057565}
   m_Layer: 5
-  m_Name: Button (Legacy) (6)
+  m_Name: 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +155,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 44358339}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1560730552, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: 1072481128, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -289,11 +289,11 @@ RectTransform:
   - {fileID: 781001834}
   - {fileID: 518816945}
   - {fileID: 625813241}
+  - {fileID: 1802953434}
+  - {fileID: 423457884}
+  - {fileID: 165593394}
   - {fileID: 1054215819}
   - {fileID: 14057561}
-  - {fileID: 165593394}
-  - {fileID: 423457884}
-  - {fileID: 1802953434}
   m_Father: {fileID: 1810434391}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -315,7 +315,7 @@ GameObject:
   - component: {fileID: 165593396}
   - component: {fileID: 165593395}
   m_Layer: 5
-  m_Name: Button (Legacy) (7)
+  m_Name: 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -11804594, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: -1181451571, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 423457886}
   - component: {fileID: 423457885}
   m_Layer: 5
-  m_Name: Button (Legacy) (8)
+  m_Name: 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -467,11 +467,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 44358339}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -248.82, y: -269.76}
+  m_AnchoredPosition: {x: -248.81993, y: -269.76004}
   m_SizeDelta: {x: 183.15, y: 183.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &423457885
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1805728853, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: 1935745759, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 518816947}
   - component: {fileID: 518816946}
   m_Layer: 5
-  m_Name: Button (Legacy) (3)
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -683,7 +683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 234083138, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: -1558371875, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -714,7 +714,7 @@ GameObject:
   - component: {fileID: 625813243}
   - component: {fileID: 625813242}
   m_Layer: 5
-  m_Name: Button (Legacy) (4)
+  m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -816,7 +816,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -411721038, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: -27659483, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 781001836}
   - component: {fileID: 781001835}
   m_Layer: 5
-  m_Name: Button (Legacy) (2)
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -949,7 +949,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -2145362496, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: 1513395001, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -979,7 +979,7 @@ GameObject:
   - component: {fileID: 945537421}
   - component: {fileID: 945537420}
   m_Layer: 5
-  m_Name: Image
+  m_Name: lvl_sel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -823613301, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: 2083433729, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1056,7 +1056,7 @@ GameObject:
   - component: {fileID: 1054215821}
   - component: {fileID: 1054215820}
   m_Layer: 5
-  m_Name: Button (Legacy) (5)
+  m_Name: 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1075,7 +1075,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 44358339}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -1158,7 +1158,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 860484649, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: -460533775, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1189,7 +1189,7 @@ GameObject:
   - component: {fileID: 1064475057}
   - component: {fileID: 1064475056}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1291,7 +1291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1589634731, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: 861870888, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1432,7 +1432,7 @@ GameObject:
   - component: {fileID: 1195303502}
   - component: {fileID: 1195303501}
   m_Layer: 5
-  m_Name: Button (Legacy) (1)
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1534,7 +1534,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -841833100, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: -1379110891, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1783,7 +1783,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelPanel: {fileID: 1810434390}
-  menu: {fileID: 0}
   levelnum: 0
   hard: 0
 --- !u!1 &1802953433
@@ -1799,7 +1798,7 @@ GameObject:
   - component: {fileID: 1802953436}
   - component: {fileID: 1802953435}
   m_Layer: 5
-  m_Name: Button (Legacy) (9)
+  m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1818,7 +1817,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 44358339}
-  m_RootOrder: 9
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -1901,7 +1900,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1471621936, guid: f60150926cb3003478d695f3282406c7, type: 3}
+  m_Sprite: {fileID: -937709598, guid: 05e13f4d1f96f81418f078e3eb1703c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2034,7 +2033,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -187.97, y: -69.850006}
+  m_AnchoredPosition: {x: -187.96997, y: -69.850006}
   m_SizeDelta: {x: 353.17, y: 111.27}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998635504
@@ -2113,7 +2112,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fc5b03217fca4c04095951bf773859ac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6a1bceccfe7d1db428ec8d1c553778cc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
