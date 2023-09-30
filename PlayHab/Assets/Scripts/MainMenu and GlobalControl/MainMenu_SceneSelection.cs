@@ -18,4 +18,8 @@ public class MainMenu_SceneSelection : MonoBehaviour
     {
         SceneManager.LoadScene("AlienLevelsPage");
     }
+    public void Chimp()
+    {
+        SceneManager.LoadScene("Chimp_MainMenu");
+    }
 }
