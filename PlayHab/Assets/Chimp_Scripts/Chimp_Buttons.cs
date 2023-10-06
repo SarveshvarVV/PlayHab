@@ -11,7 +11,11 @@ public class Chimp_Buttons : MonoBehaviour
         
     }
 
-   public void Level1() {
+    public void MainScreen()
+    {
+        SceneManager.LoadScene("MainScreen");
+    }
+    public void Level1() {
      SceneManager.LoadScene("Chimp_L1");
    }
    public void Level2() {

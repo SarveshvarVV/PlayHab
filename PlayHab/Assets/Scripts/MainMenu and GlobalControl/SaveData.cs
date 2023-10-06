@@ -1,12 +1,7 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
-using Unity.VisualScripting;
 using TMPro;
-using System;
-using static UnityEditor.ShaderGraph.Internal.KeywordDependentCollection;
-using System.Linq;
 
 public class SaveData : MonoBehaviour
 {

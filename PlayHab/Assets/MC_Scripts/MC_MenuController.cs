@@ -18,7 +18,10 @@ public class MC_MenuController : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
         }
     }
-
+    public void MainScreen()
+    {
+        SceneManager.LoadScene("MainScreen");
+    }
     public void Lvl1()
     {
          choice= 1;

@@ -22,4 +22,9 @@ public class MainMenu_SceneSelection : MonoBehaviour
     {
         SceneManager.LoadScene("Chimp_MainMenu");
     }
+
+    public void BC()
+    {
+        SceneManager.LoadScene("MC_Menu");
+    }
 }
