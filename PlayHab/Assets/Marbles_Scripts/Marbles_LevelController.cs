@@ -214,7 +214,7 @@ public class Marbles_LevelController : MonoBehaviour
             {
                 yesno.SetActive(false);
                 isyesno = false;
-                timetextwrong.text = "Time Taken: " + timer;
+                timetextwrong.text = "Task Failed Time Taken: " + timer;
                 wrongPanel.SetActive(true);
                 GamePanel.SetActive(false);
                 timer = 0;
@@ -227,7 +227,7 @@ public class Marbles_LevelController : MonoBehaviour
         {
             yesno.SetActive(false);
             isyesno = false;
-            timetextwrong.text = "Time Taken: " + timer;
+            timetextwrong.text = "Task Failed Time Taken: " + timer;
             wrongPanel.SetActive(true);
             GamePanel.SetActive(false);
             timer = 0;
@@ -238,7 +238,7 @@ public class Marbles_LevelController : MonoBehaviour
             {
                 yesno.SetActive(false);
                 isyesno = false;
-                timetextwrong.text = "Time Taken: " + timer;
+                timetextwrong.text = "Task Failed Time Taken: " + timer;
                 wrongPanel.SetActive(true);
                 GamePanel.SetActive(false);
                 timer = 0;

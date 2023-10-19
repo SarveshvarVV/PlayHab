@@ -38,8 +38,8 @@ public class MC_TimerW : MonoBehaviour
     {
         whitetime = timer;
         avgtime = whitetime + MC_Timer.instance.blacktime;
-        correcttimetext.text = "Reaction Time:" + avgtime;
-        wrongtimetext.text = "Reaction Time:" + avgtime;
+        correcttimetext.text = "Time Taken:" + avgtime;
+        wrongtimetext.text = "Task Failed Time Taken:" + avgtime;
         
     }
     

@@ -10,7 +10,7 @@ public class SaveData : MonoBehaviour
     public string game;
     public int diff;
     public string dT;
-    public string tOs;
+    public string tOs = "Task Failed";
     public PlayerData data = new PlayerData();
 
 
@@ -29,7 +29,14 @@ public class SaveData : MonoBehaviour
 
     private void Start()
     {
-        LoadFromJson();
+        if (!File.Exists(Application.persistentDataPath + "/SaveData.json"))
+        {
+            SaveToJson();
+        }
+        else
+        {
+            LoadFromJson();
+        }
     }
 
     public void LoadFromJson()

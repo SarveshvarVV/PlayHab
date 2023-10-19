@@ -12,6 +12,6 @@ public class AddTOS : MonoBehaviour
     {
         tos = GetComponent<Text>();
         saveData = FindObjectOfType<SaveData>().GetComponent<SaveData>();
-        saveData.OnAddTOS(tos.ToString());
+        saveData.OnAddTOS(tos.text.ToString());
     }
 }

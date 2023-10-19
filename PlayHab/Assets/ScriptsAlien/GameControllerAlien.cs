@@ -12,7 +12,7 @@ public class GameControllerAlien : MonoBehaviour
     [SerializeField] private List<Alien> hogs;
     [SerializeField] private Text timerText;
     [SerializeField] private Text scoreText; // Add a reference to the Score UI Text component.
-    [SerializeField] private TMPro.TextMeshProUGUI finScoreDisplay;
+    [SerializeField] private Text finScoreDisplay;
     private HashSet<Alien> currentHogs = new HashSet<Alien>();
     int prevIndex = 0;
 
@@ -50,7 +50,7 @@ public class GameControllerAlien : MonoBehaviour
                 // Game over logic here
                 isGameActive = false;
                 finalScore = score;
-                finScoreDisplay.text = $"{finalScore}";
+                finScoreDisplay.text = "Score: "+ finalScore;
                 complete.SetActive(true);
                 Debug.Log("Game Over");
             }
