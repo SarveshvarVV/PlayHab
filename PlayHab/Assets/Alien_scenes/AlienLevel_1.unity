@@ -536,7 +536,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 980670621}
-        m_TargetAssemblyTypeName: __Pause__, Assembly-CSharp
+        m_TargetAssemblyTypeName: __Pause__Alien, Assembly-CSharp
         m_MethodName: Level_page
         m_Mode: 1
         m_Arguments:
@@ -2537,8 +2537,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 980670621}
-        m_TargetAssemblyTypeName: __Pause__, Assembly-CSharp
-        m_MethodName: Restart
+        m_TargetAssemblyTypeName: __Pause__Alien, Assembly-CSharp
+        m_MethodName: Restart_1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

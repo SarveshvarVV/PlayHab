@@ -982,7 +982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2714f7e805f0bb34e8422913187f0d2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  complete: {fileID: 0}
+  complete: {fileID: 2022251320}
   hogs:
   - {fileID: 2122964507}
   - {fileID: 1712906471}
@@ -993,7 +993,7 @@ MonoBehaviour:
   - {fileID: 330966407}
   timerText: {fileID: 1144885550}
   scoreText: {fileID: 1810701174}
-  finScoreDisplay: {fileID: 0}
+  finScoreDisplay: {fileID: 190417509}
 --- !u!114 &995831616 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 583643001979361387, guid: 16c783ede38d4a041b0b06da3059a20c, type: 3}
@@ -1986,8 +1986,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: __Pause__, Assembly-CSharp
+      - m_Target: {fileID: 19253759}
+        m_TargetAssemblyTypeName: __Pause__Alien, Assembly-CSharp
         m_MethodName: Level_page
         m_Mode: 1
         m_Arguments:
@@ -2555,9 +2555,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: __Pause__, Assembly-CSharp
-        m_MethodName: Restart
+      - m_Target: {fileID: 19253759}
+        m_TargetAssemblyTypeName: __Pause__Alien, Assembly-CSharp
+        m_MethodName: Restart_9
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

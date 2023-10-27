@@ -104,7 +104,8 @@ public class TumblerController : MonoBehaviour
     void StartReplayingPath()
     {
         isReplayingPath = true;
-        
+        //Right.SetActive(false);
+        //Left.SetActive(false);
         replayIndex = fallPath.Count - 2;
     }
 

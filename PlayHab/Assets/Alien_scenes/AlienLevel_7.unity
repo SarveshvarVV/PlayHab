@@ -413,8 +413,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: __Pause__, Assembly-CSharp
+      - m_Target: {fileID: 1615241706}
+        m_TargetAssemblyTypeName: __Pause__Alien, Assembly-CSharp
         m_MethodName: Level_page
         m_Mode: 1
         m_Arguments:
@@ -1466,9 +1466,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: __Pause__, Assembly-CSharp
-        m_MethodName: Restart
+      - m_Target: {fileID: 1615241706}
+        m_TargetAssemblyTypeName: __Pause__Alien, Assembly-CSharp
+        m_MethodName: Restart_7
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1571,7 +1571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2714f7e805f0bb34e8422913187f0d2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  complete: {fileID: 0}
+  complete: {fileID: 378024175}
   hogs:
   - {fileID: 666434509}
   - {fileID: 1371355392}
@@ -1581,7 +1581,7 @@ MonoBehaviour:
   - {fileID: 268235961}
   timerText: {fileID: 998040174}
   scoreText: {fileID: 388578871}
-  finScoreDisplay: {fileID: 0}
+  finScoreDisplay: {fileID: 572407687}
 --- !u!1 &998040172
 GameObject:
   m_ObjectHideFlags: 0
