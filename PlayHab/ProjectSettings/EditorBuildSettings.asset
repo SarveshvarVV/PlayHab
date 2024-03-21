@@ -104,25 +104,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MC_Scenes/MC_WAnswer.unity
     guid: 345e280528d5a09439657c8491426fb1
-  - enabled: 0
+  - enabled: 1
     path: Assets/color_Scenes/CatColor_LevelSel.unity
     guid: 5d32f2cef1f6f1e42a98d869635b563b
-  - enabled: 0
+  - enabled: 1
     path: Assets/color_Scenes/Color_level1.unity
     guid: a363465144840df4882b0326cb46a9be
-  - enabled: 0
+  - enabled: 1
     path: Assets/color_Scenes/Color_level2.unity
     guid: 512f47658a7203c458790a40faa9fa9a
-  - enabled: 0
+  - enabled: 1
     path: Assets/color_Scenes/Color_level3.unity
     guid: 764b4be5ff10dae44ae2cf731519b636
-  - enabled: 0
+  - enabled: 1
     path: Assets/color_Scenes/Color_level4.unity
     guid: 97646edfe3dec7840a05c4251b666f6a
-  - enabled: 0
+  - enabled: 1
     path: Assets/color_Scenes/Color_level5.unity
     guid: 74689498eafcd6c46b2ceca15b1d75ad
-  - enabled: 0
+  - enabled: 1
     path: Assets/color_Scenes/Color_qn.unity
     guid: 31928034ec1356f469082c0837f4a654
   m_configObjects: {}
